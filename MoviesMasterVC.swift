@@ -60,7 +60,7 @@ class MoviesMasterVC: UIViewController {
     
     @IBAction func dcBtns(_ sender: UIButton) {
         let index = sender.tag
-        selectedMovie = MarvelMovieData[index]
+        selectedMovie = DCMovieData[index]
         performSegue(withIdentifier: "Next", sender: nil)
     }
     
